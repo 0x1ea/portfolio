@@ -3,18 +3,20 @@ import Image from "next/image"
 import Tag from "./Tag"
 // import SAMPLEIMAGE from "../assets/NerdsCollection.png"
 import Link from "next/link"
-const Card = ({ project }) => {
-  const SAMPLEIMAGE = project.image
 
+const Card = ({ project }) => {
   return (
     <div className="bg-[#222222] rounded-lg hover:scale-101">
       <Link href="https://google.com/">
         <a className="cursor-pointer" target="_blank">
           <Image
-            src={SAMPLEIMAGE}
+            src={project.image}
             alt=""
-            className="z-0 rounded-tl-lg rounded-tr-lg"
-            layout="fill"
+            className="z-0 rounded-tl-lg rounded-tr-lg "
+            width="90%"
+            height="60%"
+            layout="responsive"
+            priority
           />
         </a>
       </Link>
@@ -23,9 +25,9 @@ const Card = ({ project }) => {
         <div className="">
           <h1 className="text-base font-semibold text-white mb-1 pl-1">{project.title}</h1>
           <div className="flex flex-wrap text-[#94A3B8] text-sm">
-            <Tag>NFT</Tag>
-            <Tag>Next</Tag>
-            <Tag>JavaScript</Tag>
+            {project.tags.map((tag) => (
+              <Tag key={`${project.id}-${tag}`}>{tag}</Tag>
+            ))}
           </div>
         </div>
 

@@ -1,18 +1,50 @@
 [
   {
     "id": 0,
-    "title": "Primera prueba",
-    "image": "../assets/codeSnapshot.png",
+    "title": "Nerds Collection",
+    "image": "https://raw.githubusercontent.com/0x1ea/portfolio/master/src/assets/NerdsCollection.png",
     "external_link": "",
     "repository_link": "",
-    "tags": ["uno", "dos", "tres"]
+    "tags": ["Next", "CSS Modules", "tres"]
   },
   {
     "id": 1,
-    "title": "Segunda Prueba",
-    "image": "../assets/MintDapp.png",
+    "title": "Selleable NFT Smart Contract",
+    "image": "https://raw.githubusercontent.com/0x1ea/portfolio/master/src/assets/NFTcode.png",
     "external_link": "",
     "repository_link": "",
-    "tags": ["uno", "dos", "tres"]
+    "tags": ["solidity", "hardhat"]
+  },
+  {
+    "id": 2,
+    "title": "Fundraising Interface",
+    "image": "https://raw.githubusercontent.com/0x1ea/portfolio/master/src/assets/FundraisingDapp.png",
+    "external_link": "",
+    "repository_link": "",
+    "tags": ["React", "Styled Components", "tres"]
+  },
+  {
+    "id": 3,
+    "title": "NFT Mint Interface",
+    "image": "https://raw.githubusercontent.com/0x1ea/portfolio/master/src/assets/MintDapp.png",
+    "external_link": "",
+    "repository_link": "",
+    "tags": ["react", "styled components", "tres"]
+  },
+  {
+    "id": 4,
+    "title": "movie rating app",
+    "image": "https://raw.githubusercontent.com/0x1ea/portfolio/master/src/assets/MovieRating.png",
+    "external_link": "",
+    "repository_link": "",
+    "tags": ["react", "axios"]
+  },
+  {
+    "id": 5,
+    "title": "ecommerce",
+    "image": "https://raw.githubusercontent.com/0x1ea/portfolio/master/src/assets/Store.png",
+    "external_link": "",
+    "repository_link": "",
+    "tags": ["react", "paypal api", "tres"]
   }
 ]
