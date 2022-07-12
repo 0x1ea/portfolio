@@ -42,7 +42,7 @@
   {
     "id": 5,
     "title": "Portfolio",
-    "image": "https://raw.githubusercontent.com/0x1ea/portfolio/master/src/assets/Store.png",
+    "image": "https://raw.githubusercontent.com/0x1ea/portfolio/master/src/assets/portfolio.png",
     "external_link": "https://leaportfolio.netlify.app",
     "repository_link": "https://github.com/0x1ea/portfolio",
     "tags": ["next", "tailwind"]
