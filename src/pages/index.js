@@ -3,7 +3,7 @@ import Card from "../components/Card"
 import projects from "../assets/artifacts/projects.json"
 import styled from "../styles/typing.module.css"
 import Footer from "../components/Footer"
-
+import Head from "next/head"
 export default function Home() {
   const [time, setTime] = React.useState(1)
 
@@ -15,6 +15,12 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>Leandro&apos;s Portfolio</title>
+        <meta name="description" content="Leandro's Portfolio build with next" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
       <div className="grid lg:grid-cols-3 bg-black">
         <div className="flex flex-col my-auto px-4 pt-8  lg:mt-48 font-mono font-semibold text-white w-full h-52">
           <h1 className={time == 1 ? styled["typewriter-text"] : "font-sans text-lg"}>Hi,</h1>
