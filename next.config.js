@@ -1,5 +1,5 @@
 const nextConfig = {
-  swcMinify: true,
+  /* swcMinify: true, */
   images: { domains: ["raw.githubusercontent.com"] },
 }
 

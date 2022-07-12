@@ -7,7 +7,7 @@ import Link from "next/link"
 const Card = ({ project }) => {
   return (
     <div className="bg-[#222222] rounded-lg hover:scale-101">
-      <Link href="https://google.com/">
+      <Link href={project.external_link}>
         <a className="cursor-pointer" target="_blank">
           <Image
             src={project.image}
@@ -32,7 +32,7 @@ const Card = ({ project }) => {
         </div>
 
         <div className="flex mt-0.5 w-6 h-6 hover:scale-105">
-          <Link href="https://google.com/">
+          <Link href={project.repository_link}>
             <a className="cursor-pointer" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

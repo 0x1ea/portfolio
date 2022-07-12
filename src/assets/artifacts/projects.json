@@ -3,48 +3,56 @@
     "id": 0,
     "title": "Nerds Collection",
     "image": "https://raw.githubusercontent.com/0x1ea/portfolio/master/src/assets/NerdsCollection.png",
-    "external_link": "",
-    "repository_link": "",
-    "tags": ["Next", "CSS Modules", "tres"]
+    "external_link": "https://nerdcollection.netlify.app",
+    "repository_link": "https://github.com/0x1ea/nerd-collection-next",
+    "tags": ["next", "css-modules", "rainbowkit", "ethersjs"]
   },
   {
     "id": 1,
     "title": "Selleable NFT Smart Contract",
     "image": "https://raw.githubusercontent.com/0x1ea/portfolio/master/src/assets/NFTcode.png",
-    "external_link": "",
-    "repository_link": "",
-    "tags": ["solidity", "hardhat"]
+    "external_link": "https://rinkeby.etherscan.io/address/0xd7829f41b4093097ed10167457b1244a90e66984#code",
+    "repository_link": "https://github.com/0x1ea/nerd-nft",
+    "tags": ["solidity", "hardhat", "ethers.js"]
   },
   {
     "id": 2,
     "title": "Fundraising Interface",
     "image": "https://raw.githubusercontent.com/0x1ea/portfolio/master/src/assets/FundraisingDapp.png",
-    "external_link": "",
-    "repository_link": "",
-    "tags": ["React", "Styled Components", "tres"]
+    "external_link": "https://genericfundraising.netlify.app/",
+    "repository_link": "https://github.com/0x1ea/generic-fundraising-dapp",
+    "tags": ["react", "styled-components", "web3.js"]
   },
   {
     "id": 3,
     "title": "NFT Mint Interface",
     "image": "https://raw.githubusercontent.com/0x1ea/portfolio/master/src/assets/MintDapp.png",
-    "external_link": "",
-    "repository_link": "",
-    "tags": ["react", "styled components", "tres"]
+    "external_link": "https://genericmint.netlify.app/",
+    "repository_link": "https://github.com/0x1ea/generic-mint-dapp",
+    "tags": ["react", "styled-components", "web3js"]
   },
   {
     "id": 4,
-    "title": "movie rating app",
+    "title": "Movie Rating App",
     "image": "https://raw.githubusercontent.com/0x1ea/portfolio/master/src/assets/MovieRating.png",
-    "external_link": "",
-    "repository_link": "",
+    "external_link": "https://movieratingapirest.netlify.app",
+    "repository_link": "https://github.com/0x1ea/movie-rating-api-rest",
     "tags": ["react", "axios"]
   },
   {
     "id": 5,
-    "title": "ecommerce",
+    "title": "Portfolio",
     "image": "https://raw.githubusercontent.com/0x1ea/portfolio/master/src/assets/Store.png",
-    "external_link": "",
-    "repository_link": "",
-    "tags": ["react", "paypal api", "tres"]
+    "external_link": "https://leaportfolio.netlify.app",
+    "repository_link": "https://github.com/0x1ea/portfolio",
+    "tags": ["next", "tailwind"]
+  },
+  {
+    "id": 6,
+    "title": "Single Page Application",
+    "image": "https://raw.githubusercontent.com/0x1ea/portfolio/master/src/assets/spa.png",
+    "external_link": "https://0x1ea.github.io/spa/",
+    "repository_link": "https://github.com/0x1ea/spa",
+    "tags": ["vanilla-js", "fetch", "api-rest"]
   }
 ]
