@@ -27,9 +27,9 @@
     "id": 3,
     "title": "NFT Mint Interface",
     "image": "https://raw.githubusercontent.com/0x1ea/portfolio/master/src/assets/MintDapp.png",
-    "external_link": "https://genericmint.netlify.app/",
-    "repository_link": "https://github.com/0x1ea/generic-mint-dapp",
-    "tags": ["react", "styled-components", "web3js"]
+    "external_link": "https://nerdcollection.netlify.app/mint",
+    "repository_link": "https://github.com/0x1ea/nerd-collection-next",
+    "tags": ["react", "styled-components", "ethers", "rainbowkit"]
   },
   {
     "id": 4,
