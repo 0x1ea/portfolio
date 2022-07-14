@@ -4,6 +4,7 @@ import projects from "../assets/artifacts/projects.json"
 import styled from "../styles/typing.module.css"
 import Footer from "../components/Footer"
 import Head from "next/head"
+
 export default function Home() {
   const [time, setTime] = React.useState(1)
 
