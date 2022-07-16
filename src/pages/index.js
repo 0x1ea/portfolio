@@ -52,7 +52,7 @@ export default function Home() {
         </div>
         <div className="grid auto-rows-min bg-black sm:grid-cols-2 gap-4 p-4 col-span-2 lg:h-screen lg:overflow-y-scroll">
           <h1 className="block lg:col-span-2 font-mono font-medium text-white w-full">
-            Selected-Projects/ <br />
+            Personal-Projects/ <br />
           </h1>
           {projects.map((project) => (
             <Card key={project.id} project={project} />

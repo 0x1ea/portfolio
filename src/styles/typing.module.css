@@ -11,8 +11,8 @@
   font-size: 1.125rem /* 18px */;
   line-height: 1.75rem /* 28px */;
 
-  animation: typewriter 2s steps(44) 1s 1 normal both,
-    blinkTextCursor 600ms steps(44) infinite normal;
+  animation: typewriter 1s steps(44) 1s 1 normal both,
+    blinkTextCursor 800ms steps(44) infinite normal;
 }
 
 .typewriter-text2 {
@@ -27,9 +27,9 @@
     "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.125rem /* 18px */;
   line-height: 1.75rem /* 28px */;
-  animation-delay: 1s;
   animation: typewriter2 1s steps(44) 1s 1 normal both,
-    blinkTextCursor 600ms steps(44) infinite normal;
+    blinkTextCursor 800ms steps(44) infinite normal;
+  /* animation-delay: 1.5s; */
 }
 
 .typewriter-text3 {
@@ -44,9 +44,9 @@
     "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.125rem /* 18px */;
   line-height: 1.75rem /* 28px */;
-  animation-delay: 1s;
   animation: typewriter3 1s steps(44) 1s 1 normal both,
-    blinkTextCursor 600ms steps(44) infinite normal;
+    blinkTextCursor 800ms steps(44) infinite normal;
+  /* animation-delay: 3s; */
 }
 /*
 
@@ -66,7 +66,7 @@
   }
 
   to {
-    width: 4rem;
+    width: 3rem;
   }
 }
 
