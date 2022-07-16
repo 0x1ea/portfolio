@@ -44,7 +44,7 @@
     "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.125rem /* 18px */;
   line-height: 1.75rem /* 28px */;
-  animation: typewriter3 1s steps(44) 1s 1 normal both,
+  animation: typewriter3 1.5s steps(44) 1s 1 normal both,
     blinkTextCursor 800ms steps(44) infinite normal;
   /* animation-delay: 3s; */
 }
