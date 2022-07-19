@@ -32,7 +32,7 @@ export default function Home() {
                 : `${time > 2 ? "" : "hidden"} font-sans text-lg`
             }
           >
-            I&apos;m, Leo,
+            I&apos;m Leo,
           </h1>
           <h1
             className={
@@ -41,11 +41,11 @@ export default function Home() {
                 : `${time > 3 ? "" : "hidden"} font-sans text-lg`
             }
           >
-            web developer.
+            Web Developer
           </h1>
 
           <p className="font-mono font-medium text-sm opacity-50 mt-auto mb-2 w-full">
-            <span>Front End Developer</span> / <span>Blockchain Developer</span> /{" "}
+            <span>Frontend Developer</span> / <span>Blockchain Developer</span> /{" "}
             <span>Freelancer</span>
           </p>
           <Footer />
